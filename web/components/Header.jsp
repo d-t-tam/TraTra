@@ -39,7 +39,7 @@
                             </c:when>
                             <c:otherwise>
                             <li class="nav-item"><a class="nav-link" href="customer/login">Login</a></li>
-                            <li class="nav-item"><a class="nav-link" href="register.jsp">SignUp</a></li>
+                            <li class="nav-item"><a class="nav-link" href="register">SignUp</a></li>
                             </c:otherwise>
                         </c:choose>
                 </ul>
