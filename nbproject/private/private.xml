@@ -3,9 +3,32 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Ticket.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/web/deleteCustomerProfile.jsp</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/web/updateCustomerProfile.jsp</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/dal/DBContext.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Cabin.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Manager.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/controller/CustomerProfileDelete.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Transaction.java</file>
             <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/dal/CustomerDAO.java</file>
-            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/dal/UserDAO.java</file>
-            <file>file:/C:/Users/dtam6/Desktop/TraTra/web/components/Header.jsp</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Route.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/controller/ChangePasswordCustomer.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/controller/CustomerProfileServlet.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Notification.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/controller/CustomerProfileUpdate.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Station.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Seller.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Customer.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Train.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Staff.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/web/components/Style.jsp</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Admin.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/User.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Voucher.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/model/Seat.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/src/java/utils/Validate.java</file>
+            <file>file:/C:/Users/dtam6/Desktop/TraTra/web/components/Message.jsp</file>
         </group>
     </open-files>
 </project-private>

@@ -15,12 +15,12 @@ import lombok.ToString;
  *
  * @author ASUS
  */
-@AllArgsConstructor // ==> tat ca thuoc tinh deu duoc set gia tri
-@NoArgsConstructor // ==> thuoc tinh rong
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @ToString
-@Builder // ==> thich set gia tri nao thi set
+@Builder
 public class Customer {
 
     private int id;

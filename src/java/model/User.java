@@ -4,19 +4,14 @@
  */
 package model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
-@AllArgsConstructor // ==> tat ca thuoc tinh deu duoc set gia tri
-@NoArgsConstructor // ==> thuoc tinh rong
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 @ToString
-@Builder // ==> thich set gia tri nao thi set
+@Builder
 /**
  *
  * @author dtam6

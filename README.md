@@ -21,8 +21,6 @@ Open project with Netbeans
 - Press `Ctrl + Shift + O`
 - Select project `TraTra`
 
-### 3. Setup .env
+### 3. Setup Database
 
-- In the project root folder, create file `.env`
-- Copy content from `.env.template` to `.env`
-- Change the value to match your system
+- Change user and password of database in DBConect.java`
