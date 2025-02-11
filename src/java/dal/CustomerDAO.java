@@ -25,7 +25,52 @@ public class CustomerDAO extends DBContext {
             .build();
         System.out.println(customerDAO.updateProfileCustomer(customer));
     }
-
+public boolean checkEmailExist(String email) {
+        try {
+            String sql = "SELECT * FROM Customer where email = ?";
+            PreparedStatement stm = connection.prepareStatement(sql);
+            stm.setString(1, email);
+            ResultSet rs = stm.executeQuery();
+            if(rs.next()) {
+                return true;
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(CustomerDAO.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return false;
+    }
+public boolean checkPhoneNumberExist(String phoneNumber) {
+        try {
+            String sql = "SELECT * FROM Customer where phone_number = ?";
+            PreparedStatement stm = connection.prepareStatement(sql);
+            stm.setString(1, phoneNumber);
+            ResultSet rs = stm.executeQuery();
+            if (rs.next()) {
+                return true;
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(CustomerDAO.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return false;
+    }
+public boolean insertCustomer(String fullname, String email, String password, String phoneNumber, String address, int status) {
+        String sql = "insert into `vetau`.`customer` (full_name,email,password,phone_number,address,status)\n"
+                + "Values(?,?,?,?,?,?\n"
+                + ")";
+        try {
+            PreparedStatement ps = connection.prepareStatement(sql);
+            ps.setString(1, fullname);
+            ps.setString(2, email);
+            ps.setString(3, password);
+            ps.setString(4, phoneNumber);
+            ps.setString(5, address);
+            ps.setInt(6, status);
+            ps.executeUpdate();
+            return true;
+        } catch (Exception e) {
+        }
+        return false;
+    }
     public Customer customerLogin(String email, String password) {
         Customer customer = null;
         String sql = "select * from Customer where email = ? and password = ? AND status = 1";
