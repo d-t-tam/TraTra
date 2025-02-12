@@ -88,6 +88,9 @@ public class LoginServlet extends HttpServlet {
             if (role.equalsIgnoreCase("customer")) {
                 response.sendRedirect("/tratra");
             }
+            if (role.equalsIgnoreCase("admin")) {
+                response.sendRedirect(request.getContextPath() +"/admin_page/AdminDashboard");
+            }
         } else {
             request.setAttribute("errorMessage", "Invalid email or password.");
             request.getRequestDispatcher("../login.jsp").forward(request, response);
